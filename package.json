@@ -2,13 +2,13 @@
   "dependencies": {
     "@google/generative-ai": "^0.22.0",
     "@sparticuz/chromium-min": "^132.0.0",
-    "chrome-aws-lambda": "^6",
+    "chrome-aws-lambda": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "helmet": "^8.0.0",
     "puppeteer": "^24.3.0",
-    "puppeteer-core": "^6"
+    "puppeteer-core": "^6.0.0"
   },
   "name": "chiiling",
   "version": "1.0.0",
