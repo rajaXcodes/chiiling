@@ -1,7 +1,7 @@
 const dotenv = require('dotenv');
 const fs = require('fs');
 const path = require('path');
-const run = require('./ai.js');
+const run = require('./ai');
 const chromium = require('@sparticuz/chromium-min');
 let puppeteer = require('puppeteer-core');
 

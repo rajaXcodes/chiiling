@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const main = require('./final.js');
+const main = require('./wait');
 const helmet = require('helmet');
 
 const app = express();
