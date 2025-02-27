@@ -203,7 +203,7 @@ const main = async (email, password, role, letter) => {
         // });
         if (process.env.NODE_ENV === 'production' || process.env.VERCEL_ENV === 'production') {
             // Configure the version based on your package.json (for your future usage).
-            const executablePath = await chromium.executablePath('https://github.com/Sparticuz/chromium/releases/download/v131.0.1/chromium-v131.0.1-pack.tar')
+            const executablePath = await chromium.executablePath('https://github.com/Sparticuz/chromium/releases/download/v132.0.0/chromium-v132.0.0-pack.tar')
             browser = await puppeteer.launch({
                 executablePath,
                 // You can pass other configs as required
