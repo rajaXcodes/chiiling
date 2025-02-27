@@ -3,6 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const run = require('./ai');
 const chromium = require('@sparticuz/chromium-min');
+const { BrowserCore } = require('@sparticuz/chromium-min');
 let puppeteer = require('puppeteer-core');
 
 
@@ -191,7 +192,7 @@ async function clickButtonByText(page, textContent) {
 
 // Main function
 const main = async (email, password, role, letter) => {
-    let browser;
+    let browser = BrowserCore;
     try {
         // Load previously applied internships
         const appliedInternships = internshipTracker.load();
