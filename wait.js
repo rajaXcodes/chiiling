@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const run = require('./ai');
 const chromium = require('@sparticuz/chromium-min');
-const { BrowserCore } = require('@sparticuz/chromium-min');
+const { BrowserCore } = require('puppeteer-core');
 let puppeteer = require('puppeteer-core');
 
 
